@@ -112,7 +112,7 @@ class Geocoder2 {
         postalCode: postalCode,
         state: state,
         countryCode: countryCode,
-        street_number: streetNumber,
+        streetNumber: streetNumber,
       );
     } else {
       return null as GeoData;
