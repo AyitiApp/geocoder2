@@ -146,7 +146,7 @@ class Location {
       };
 }
 
-enum LocationType { ROOFTOP, GEOMETRIC_CENTER, APPROXIMATE }
+enum LocationType { ROOFTOP, GEOMETRIC_CENTER, APPROXIMATE, RANGE_INTERPOLATED }
 
 final locationTypeValues = EnumValues({
   "APPROXIMATE": LocationType.APPROXIMATE,
